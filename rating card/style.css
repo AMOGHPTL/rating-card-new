@@ -65,6 +65,7 @@ h1,h2,h3{
     display: inline-block;
     border-radius: 100%;
     color: var(--color-num);
+    margin: 1rem 2rem;
 }
 
 /* box selected */
@@ -88,3 +89,4 @@ h1,h2,h3{
     border-radius: 2rem;
 }
 
+/* rating box */
