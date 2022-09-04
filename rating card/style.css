@@ -25,6 +25,10 @@ body{
     font-family: 'Overpass', sans-serif;
     color: var(--color-small);
     background-color: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vw;
 }
 
 h1,h2,h3{
@@ -72,5 +76,15 @@ h1,h2,h3{
     display: inline-block;
     font-size: 1.5rem;
     border-radius: 3rem;
+}
+
+/* container */
+
+.container{
+    background-color: var(--color-secondary);
+    width: 100%;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
 }
 
