@@ -12,5 +12,43 @@
 /*TYPOGRAPHY*/
 
 html{
+    font-size: 62.5%;
     font-family: 'Overpass', sans-serif;
 }
+
+img{
+    width: 100%;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Overpass', sans-serif;
+    color: var(--color-small);
+}
+
+h1,h2,h3{
+    color: var(--color-heading);
+}
+
+/*button*/
+.btn{
+    background: var(--color-primary);
+    color: var(--color-heading);
+    border: none;
+    font-size: 1.6rem;
+    padding: 2rem 4vw;
+    width: 100%;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    border-radius: 3rem;
+}
+
+/* icons */
+
+.icon{
+    background-color: rgba(50, 60, 70, 1);
+    display: inline-block;
+    padding: 1rem 1.1rem;
+    border-radius: 100%;
+}
+
