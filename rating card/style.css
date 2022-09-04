@@ -1,0 +1,16 @@
+/* color pallet */
+
+:root{
+    --color-primary: hsl(25, 97%, 53%);
+    --color-secondary: hsl(213, 19%, 18%);
+    --color-background: hsl(216, 12%, 8%);
+    --color-small:  hsl(216, 12%, 54%);
+    --color-num: hsl(217, 12%, 63%);
+    --color-heading: hsl(0, 0%, 100%);
+}
+
+/*TYPOGRAPHY*/
+
+html{
+    font-family: 'Overpass', sans-serif;
+}
